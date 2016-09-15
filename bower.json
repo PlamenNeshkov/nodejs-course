@@ -1,0 +1,22 @@
+{
+  "name": "library",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Plamen Neshkov <plamen@tuta.io>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/PlamenNeshkov/nodejs-course",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "^4.6.3"
+  }
+}
