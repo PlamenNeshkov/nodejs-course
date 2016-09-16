@@ -5,10 +5,10 @@ var port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 app.set('views', 'src/views');
-app.set('view engine', 'jade');
+app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-  res.render('index');
+  res.render('index', {title: "Sample App", list: ['a', 'b']});
 });
 
 app.get('/books', function(req, res) {
